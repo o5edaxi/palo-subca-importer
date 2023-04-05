@@ -6,7 +6,7 @@ This makes it easy to avoid the firewall presenting the [Forward Untrust Certifi
 
 The [file](https://ccadb-public.secure.force.com/mozilla/MozillaIntermediateCertsCSVReport) maintained by Mozilla is essentially what browsers use to perform [Intermediate CA Preloading](https://blog.mozilla.org/security/2020/11/13/preloading-intermediate-ca-certificates-into-firefox/), but as this contains several thousands of certificates it is impractical to upload all of them into the firewall's configuration and keep it up to date. With this script it is possible to more easily (or even automatically) import a necessary CA once warnings are noticed or logged.
 
-The CSV file from CCADB is rather large and is only re-downloaded to the specified location once per day. It is crucial to ensure that this file is stored securely and is not altered between executions of the script; it determines which certificates will and will not be trusted by the firewall you are using the script on, for several tasks performed by the device.
+The CSV file from CCADB is rather large and is only re-downloaded to the specified location once per day. **It is crucial to ensure that this file is stored securely** and is not altered between executions of the script; it determines which certificates will and will not be trusted by the firewall you are using the script on, for several tasks performed by the device.
 
 The script supports uploading the certificate to a firewall or a Panorama template, in a Shared or Vsys location. A change preview and commit feature is implemented to avoid having to manually commit the configuration.
 
