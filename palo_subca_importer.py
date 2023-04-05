@@ -175,7 +175,7 @@ if __name__ == '__main__':
                                                                               'device even if it '
                                                                               'is not found in '
                                                                               'the Mozilla CCADB. '
-                                                                              'This means it does'
+                                                                              'This means it does '
                                                                               'not chain up to a '
                                                                               'publicly trusted '
                                                                               'root CA, it is '
