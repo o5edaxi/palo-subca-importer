@@ -48,7 +48,13 @@ The script has been tested with PanOS 9.1, 10.1, 10.2.
 
 - [pandas](https://pypi.org/project/pandas/) (install with ```pip3 install pandas```)
 
+- [requests](https://pypi.org/project/requests/) (install with ```pip3 install requests```)
+
+- [urllib3](https://pypi.org/project/urllib3/) (install with ```pip3 install urllib3```)
+
 - [cryptography](https://pypi.org/project/cryptography/) (install with ```pip3 install cryptography```)
+
+- [lxml](https://pypi.org/project/lxml/) (install with ```pip3 install lxml```)
 
 ### License
 
